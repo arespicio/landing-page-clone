@@ -57,8 +57,46 @@ table {
 
 body{
 	background-color: lightGray;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
     border: 1px solid Chocolate;
+}
+
+/* Navigation Section */
+.top-navigation{
+	background-color:  #fff;
+	position: fixed;
+	width: 100%;
+}
+
+.top-navigation > .content{
+	height: 70px;
+	margin: 0 auto;
+	width: 970px;
+}
+
+.logo{
+	height: 70px;
+	padding: 0px 15px;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.links{
+	margin-top: 2em;
+	float: right;
+}
+
+.links li{
+    display: inline-block;
+    margin-right: 2em;
 }
