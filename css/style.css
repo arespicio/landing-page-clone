@@ -197,7 +197,7 @@ button:hover{
 
 .cases .devices > li{
 	display: inline-block;
-	width: 20%;
+	width: 30%;
 	box-sizing: border-box;
 	height: 4em;
 }
